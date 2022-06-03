@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+p{
+    max-width: 40%;
+    padding-left: 5%;
+}
+h1{
+    color: white;
+}
+h2{
+    max-width: 20%;
+}
+img{
+    max-width: 19%;
+    margin-left: 4%;
+    padding-right: 2%;
+}
+
+.container-big{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.container-bigger{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.red{
+    display: flex;
+    background-color: #ff0000;
+    width: 100%;
+    justify-content: center;
+    text-align: end;
+}
+.green{
+    display: flex;
+    background-color: lime;
+    width: 100%;
+    justify-content: center;
+    text-align: end;
+}
+.blue{
+    display: flex;
+    background-color: rgb(50, 101, 243);
+    width: 100%;
+    justify-content: center;
+    text-align: end;
+}
